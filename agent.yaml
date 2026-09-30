@@ -5,4 +5,4 @@ description: Deterministic dependency security analysis agent for identifying de
 skills:
   - dependency-audit
 tools:
-  - dependency_audit
+  - dependency-audit

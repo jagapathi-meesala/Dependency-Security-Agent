@@ -1,3 +1,8 @@
+---
+name: dependency-audit
+description: Analyze dependency inventories and trusted vulnerability findings to identify security risks and explicit version policy violations.
+---
+
 # Dependency Audit Skill
 
 ## Purpose

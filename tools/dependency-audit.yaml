@@ -1,0 +1,26 @@
+name: dependency-audit
+description: Analyze dependency inventories and trusted vulnerability findings for dependency security risks.
+
+input_schema:
+  type: object
+  properties:
+    dependencies:
+      type: array
+      description: Dependency records to analyze.
+      items:
+        type: object
+        properties:
+          name:
+            type: string
+          version:
+            type: string
+        required:
+          - name
+          - version
+  required:
+    - dependencies
+
+implementation:
+  type: script
+  path: dependency_audit.py
+  runtime: python3
